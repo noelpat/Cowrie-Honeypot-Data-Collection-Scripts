@@ -38,3 +38,5 @@ The script works by iterating through all of the log files collected by Cowrie o
 For a previous study, I prepared scripts that can find all of the unique IP addresses or commands from a given Cowrie JSON log file (See: https://noelpat.github.io/Filtering-commands-from-cowrie-logs.html). For this particular study, I updated the script (shodanAPIscan.py) used to filter results from cowrie logs so that it can iterate through multiple directories and log files together for analysis. By doing so, this enables you to only analyze log files for certain days since the daily download script organizes each day into its own directory. Additionally, feeding these IP addresses into the Shodan API allows you to find various information such as open port numbers, hostnames, and CVE's associated with particular IP addresses. The following are helpful references:
 * https://zeroaptitude.com/zerodetail/analyzing-cowrie-honeypot-results/
 * https://help.shodan.io/developer-fundamentals/looking-up-ip-info
+
+I also created a Python script for finding the top ten most common IP addresses named toptenIP.py. 

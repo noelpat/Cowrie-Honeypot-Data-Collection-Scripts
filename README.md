@@ -39,4 +39,4 @@ For a previous study, I prepared scripts that can find all of the unique IP addr
 * https://zeroaptitude.com/zerodetail/analyzing-cowrie-honeypot-results/
 * https://help.shodan.io/developer-fundamentals/looking-up-ip-info
 
-I also created a Python script for finding the top ten most common IP addresses named toptenIP.py. 
+By referencing the scripts on zeroaptitude.com mentioned above, I also created a Python script for finding the top ten most common IP addresses among all directories/days named toptenIP.py. 
